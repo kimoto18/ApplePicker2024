@@ -123,6 +123,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &615723822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3978683506557792754, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
+  m_PrefabInstance: {fileID: 3978683506663794435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &615723823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615723822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bde021b3831c044eb75b64c13ed2b2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 8494159000622835279, guid: 71636e6210d42d348a5bab6d701fa4d8, type: 3}
+  speed: 10
+  leftAndRightEdge: 10
+  changeDirChance: 0.001
+  AppleDropDelay: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +328,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3978683506034111748, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3978683506557792752, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3978683506557792753, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -353,6 +383,14 @@ PrefabInstance:
     - target: {fileID: 3978683506557792754, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3978683506557792754, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3978683507533231350, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c15dc562a9cc1cf4a9608c42e0b3ac4b, type: 3}
